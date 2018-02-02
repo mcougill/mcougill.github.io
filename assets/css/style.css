@@ -1,0 +1,170 @@
+body {
+    background-image: url("../images/topography.png");
+    position: relative;
+}
+header {background-color:#6A6A6A;
+    height:90px;  
+    position: sticky;  
+}
+
+.left {
+    float:left;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+aside {
+    font-family: 'Dosis', sans-serif;
+    float:right;
+    margin-right:17%;
+    color:#7D9D72;
+    padding:35px;
+}
+
+.topBar {
+    background-color: #7D9D72;
+    font-size:30px;
+    width:245px;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-left:175px;
+    margin-bottom:30px;
+    color: #eee8aa;
+
+}
+
+.mainContainer {
+    width:610px;
+    background-color:#eee8aa;
+    clear:both;
+    margin-left:175px;
+    padding:20px;
+}
+
+#main-bio {
+    width:610px;
+    margin:50px 20px 50px 20px;
+}
+
+.contentHeader {
+    font-size: 30px;
+    padding:10px;
+    margin-bottom:20px;
+    border-bottom: 2px solid #6A6A6A;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.bio-image {width: 185px;
+   height: 280px;
+   padding-bottom:20px;
+   margin-right:20px;
+}
+
+.sideBar{
+    width:230px;
+    background-color:#eee8aa;
+    text-align:center;
+    padding:20px;
+    margin-left:40px;
+}
+
+
+h2{color: #7D9D72;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    clear:both;
+    font-family: 'Fjalla One', sans-serif;
+    border-bottom: 2px solid #6A6A6A;
+}
+
+h1{color:  #7D9D72;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    size:30px;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    color:#6A6A6A;
+    line-height:22px;
+    font-size:20px;
+}
+
+.socialLink {
+    width:40px;
+    height:40px;
+    margin-top:10px;
+}
+
+footer {
+    background-color: #6A6A6A;
+    color:darkgray;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:-200px;
+    padding:20px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    border-top:10px solid #7D9D72;
+}
+
+a{ 
+    color:#7D9D72;
+}
+
+
+
+.portfolioBox {
+    width: 255px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#6A6A6A;
+    position:absolute;
+    z-index:3;
+    top:95px;
+    text-align:center;
+    color:  #7D9D72;
+    font-size:15px;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+.portfolioImage {
+    margin-left:20px;
+    margin-bottom:20px;
+    position:relative;
+}
+
+form {
+    color:#6A6A6A;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+input[type=text] {
+    width:100%;
+   margin-bottom:20px;
+   margin-top:5px;
+   
+}
+
+input[name=message] {
+    padding-bottom: 100px;
+   
+}
+
+input[type="submit"] {
+    background-color:#7D9D72;
+    font-family: 'Dosis', sans-serif;
+    color:#6A6A6A;
+    padding-left:35px;
+    padding-right:35px;
+    font-size:15px;
+}
+
